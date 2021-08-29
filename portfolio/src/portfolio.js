@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Haleigh Spurlock",
-  title: "Hi all, I'm Haleigh!",
+  username: "James Jordan",
+  title: "Greetings from an analyst-developer. Hope to work together!",
   subTitle: emoji(
-    "The Peachy Programmer 🍑  Taking the world of development by storm 🚀  Experience in building both Web and Mobile applications with ✨ Javascript, Reactjs, Nodejs✨ && more!"
+    "Whether it's graphs 📊 or ✨ Javascript, Reactjs, Nodejs✨ && more, I'm your guy!"
   ),
   resumeLink:
     "https://docs.google.com/document/d/18zMEz3h1-V0CYE8j8f-Sa86j14ZbYS3bMKuTZHRXDxg/edit?usp=sharing",
@@ -34,12 +34,12 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What do I know?",
   skills: [
-    emoji("⚡ Front End/UI for mobile and web"),
+    emoji("⚡ Front End/UI for web"),
     emoji(
       "⚡ Very Comfortable with Back End, writing server scripts, APIs and business logic"
     ),
     emoji(
-      "⚡ An incredible team player, friendly and ready to run the world of dev"
+      "⚡ An incredible team player with project management experience and a passion for learning and smooth user experiences"
     )
   ],
 
@@ -54,10 +54,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
