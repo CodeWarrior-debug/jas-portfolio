@@ -8,24 +8,24 @@ import {Fade} from "react-reveal";
 export default function Contact() {
   // const {isDark} = useContext(StyleContext);
   return (
-    // <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
             <p
-              className={
-                isDark
-                  ? "dark-mode contact-subtitle"
-                  : "subTitle contact-subtitle"
-              }
+              // className={
+              //   isDark
+              //     ? "dark-mode contact-subtitle"
+              //     : "subTitle contact-subtitle"
+              // }
             >
               {contactInfo.subtitle}
             </p>
             <div
-              className={
-                isDark ? "dark-mode contact-text-div" : "contact-text-div"
-              }
+              // className={
+              //   isDark ? "dark-mode contact-text-div" : "contact-text-div"
+              // }
             >
               <a
                 className="contact-detail-email"
@@ -35,11 +35,11 @@ export default function Contact() {
               </a>
               <br />
               <br />
-              <SocialMedia />
+              {/* <SocialMedia /> */}
             </div>
           </div>
         </div>
       </div>
-    // </Fade>
+    </Fade>
   );
 }

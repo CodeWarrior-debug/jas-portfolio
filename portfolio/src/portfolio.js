@@ -94,7 +94,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of North Carolina, Charlotte",
-      logo: require("./assets/images/uncclogo.png"),
+      // logo: require("./assets/images/uncclogo.png"),
       subHeader: "Coding Certificate - Full Stack Web Development",
       duration: "February 2021 - April 2021",
       desc:
@@ -106,7 +106,7 @@ const educationInfo = {
     },
     {
       schoolName: "Graceland University",
-      logo: require("./assets/images/gracelandlogo.png"),
+      // logo: require("./assets/images/gracelandlogo.png"),
       subHeader: "Bachelor of Arts in Psychology",
       duration: "September 2011 - April 2014",
       desc: "Graduated with a 3.2 GPA. Minored in Sociology.",
@@ -144,7 +144,7 @@ const workExperiences = {
     {
       role: "Registered Behavior Technician",
       company: "Positive Behavior Supports",
-      companylogo: require("./assets/images/pbslogo.jpeg"),
+      // companylogo: require("./assets/images/pbslogo.jpeg"),
       date: "February 2020 - Jan 2021",
       desc:
         "Responsible for assisting behavior analysts to implement behavior reduction and skill acquisition treatment plans.",
@@ -153,7 +153,7 @@ const workExperiences = {
     {
       role: "Director",
       company: "The Little Gym",
-      companylogo: require("./assets/images/tlg.png"),
+      // companylogo: require("./assets/images/tlg.png"),
       date: "October 2018 - March 2020",
       desc:
         "I manage some serious fun! Our program is the springboard to life's adventures, using movement based learning and imaginative play to build confidence and skills in kiddos ages 4 months to 12 years! We believe in three dimensional learning so we can provide a safe space for children to explore physical development while growing socially, emotionally, and intellectually."
@@ -161,7 +161,7 @@ const workExperiences = {
     {
       role: "Certified Pharmacy Technician & Financial Counselor",
       company: "Nebraska Medicine",
-      companylogo: require("./assets/images/neblogo.png"),
+      // companylogo: require("./assets/images/neblogo.png"),
       date: "April 2017 - August 2018",
       desc:
         "Dispensing of medications for patients, Receiving and verifying the prescriptions, Pricing and filling of prescriptions, Obtaining pharmacist’s approval, Completing patient paperwork related to the filling of prescription, Answering phones and assisting with insurance claims processing, Ensuring availability of drugs by delivering them to patients via our program Meds to Beds"
@@ -169,7 +169,7 @@ const workExperiences = {
     {
       role: "Lead Residential Counselor",
       company: "House of Mercy - Mercy Medical Center",
-      companylogo: require("./assets/images/mercylogo.jpeg"),
+      // companylogo: require("./assets/images/mercylogo.jpeg"),
       date: "June 2014 - November 2016",
       desc:
         "Serves as a teacher, coach, mentor, and role model to adult resident's and their children. Supports clients through their education and treatment areas such as chemical dependency, daily living skills, parenting, self-sufficiency, behavioral and mental heath. Building and maintaining rapport and a therapeutic relationship with clients and their children. Utilizing a compassionate, empathetic manner to ensure clients feel welcome and appreciated."
@@ -191,57 +191,57 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Group and Individual projects I've contributed to!",
   projects: [
-    {
-      image: require("./assets/images/QuirkyQuiz.png"),
-      projectName: "Quirky Quiz",
-      projectDesc:
-        "Quirky Quiz is a collection of quizzes made by our user community, for our user community.",
-      footerLink: [
-        {
-          name: "Deployed Application",
-          url: "https://quirkyquiz.herokuapp.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/homepage.png"),
-      projectName: "React Employee Directory",
-      projectDesc:
-        "React application that fetches random user information from an API to create employees.",
-      footerLink: [
-        {
-          name: "Deployed Application",
-          url: "https://haleighspurlock.github.io/react-employee-directory/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/fitness-dashboard.png"),
-      projectName: "Workout Tracker",
-      projectDesc:
-        "An application that allows a use to create a new workout or continue their last workout, as well as track their fitness goals and progress.",
-      footerLink: [
-        {
-          name: "Deployed Application",
-          url: "https://hspurlock-fitness-tracker.herokuapp.com/stats"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/Doggle.png"),
-      projectName: "Doggle",
-      projectDesc:
-        "Enjoy a way to look at your favorite dog breed while also searching for rescues in your area!",
-      footerLink: [
-        {
-          name: "Deployed Application",
-          url: "https://accoon.github.io/Dog-Breed-Finder-and-Rescue/"
-        }
-        //  you can add extra buttons here.
-      ]
-    }
+    // {
+    //   image: require("./assets/images/QuirkyQuiz.png"),
+    //   projectName: "Quirky Quiz",
+    //   projectDesc:
+    //     "Quirky Quiz is a collection of quizzes made by our user community, for our user community.",
+    //   footerLink: [
+    //     {
+    //       name: "Deployed Application",
+    //       url: "https://quirkyquiz.herokuapp.com/"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/homepage.png"),
+    //   projectName: "React Employee Directory",
+    //   projectDesc:
+    //     "React application that fetches random user information from an API to create employees.",
+    //   footerLink: [
+    //     {
+    //       name: "Deployed Application",
+    //       url: "https://haleighspurlock.github.io/react-employee-directory/"
+    //     }
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/fitness-dashboard.png"),
+    //   projectName: "Workout Tracker",
+    //   projectDesc:
+    //     "An application that allows a use to create a new workout or continue their last workout, as well as track their fitness goals and progress.",
+    //   footerLink: [
+    //     {
+    //       name: "Deployed Application",
+    //       url: "https://hspurlock-fitness-tracker.herokuapp.com/stats"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/Doggle.png"),
+    //   projectName: "Doggle",
+    //   projectDesc:
+    //     "Enjoy a way to look at your favorite dog breed while also searching for rescues in your area!",
+    //   footerLink: [
+    //     {
+    //       name: "Deployed Application",
+    //       url: "https://accoon.github.io/Dog-Breed-Finder-and-Rescue/"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -250,7 +250,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Job Opportunity? Project Idea? Want to say hi? Feel free to reach out!",
-  email_address: "haleighspurlock@gmail.com"
+  email_address: "jpjordan1987@gmail.com"
 };
 
 export {
