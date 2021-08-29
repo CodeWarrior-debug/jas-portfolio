@@ -22,9 +22,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/haleighspurlock",
-  linkedin: "https://www.linkedin.com/in/haleighspurlock/",
-  gmail: "haleighspurlock@gmail.com",
+  github: "https://github.com/CodeWarrior-debug",
+  linkedin: "https://www.linkedin.com/in/james-jordan-7a919b34/",
+  gmail: "jpjordan1987@gmail.com",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -105,36 +105,36 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Graceland University",
+      schoolName: "Grove City College",
       // logo: require("./assets/images/gracelandlogo.png"),
-      subHeader: "Bachelor of Arts in Psychology",
-      duration: "September 2011 - April 2014",
-      desc: "Graduated with a 3.2 GPA. Minored in Sociology.",
-      descBullets: ["Graceland Gadets Dance Team"]
+      subHeader: "Bachelor of Arts in Christian Theology",
+      duration: "August 2005 - December 2009",
+      desc: "Honors in Christian Theology. Minor in Philosophy.",
+      descBullets: ["Rugby, Koinonia"]
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
+// // Your top 3 proficient stacks/tech experience
 
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "40%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "60%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "50%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
+// const techStack = {
+//   viewSkillBars: true, //Set it to true to show Proficiency Section
+//   experience: [
+//     {
+//       Stack: "Frontend/Design", //Insert stack or technology you have experience in
+//       progressPercentage: "40%" //Insert relative proficiency in percentage
+//     },
+//     {
+//       Stack: "Backend",
+//       progressPercentage: "60%"
+//     },
+//     {
+//       Stack: "Programming",
+//       progressPercentage: "50%"
+//     }
+//   ],
+//   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+// };
 
 // Work experience section
 
@@ -249,7 +249,7 @@ const bigProjects = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Job Opportunity? Project Idea? Want to say hi? Feel free to reach out!",
+    "Job or Freelance Opportunity? Project Collaboration? Reach out!",
   email_address: "jpjordan1987@gmail.com"
 };
 
@@ -259,7 +259,7 @@ export {
   socialMediaLinks,
   skillsSection,
   educationInfo,
-  techStack,
+  // techStack,
   workExperiences,
   openSource,
   bigProjects,
