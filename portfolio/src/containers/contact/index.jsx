@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import "./styles.css";
-// import SocialMedia from "../../components/socialMedia/SocialMedia";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
 // import StyleContext from "../../contexts/StyleContext";
@@ -35,7 +35,7 @@ export default function Contact() {
               </a>
               <br />
               <br />
-              {/* <SocialMedia /> */}
+              <SocialMedia />
             </div>
           </div>
         </div>

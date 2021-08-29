@@ -259,7 +259,6 @@ export {
   socialMediaLinks,
   skillsSection,
   educationInfo,
-  // techStack,
   workExperiences,
   openSource,
   bigProjects,
